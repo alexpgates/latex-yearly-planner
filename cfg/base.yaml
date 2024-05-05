@@ -1,6 +1,6 @@
 weekstart: 1
 ampmtime: false
-dotted: true
+dotted: false
 calafterschedule: false
 addlasthalfhour: true
 
@@ -30,8 +30,15 @@ layout:
     dailytophour: 23
     dailydiarygoals: 10
     dailydiarygrateful: 4
-    dailydiarybest: 4
-    dailydiarylog: 24
+    dailydiarydefault: 2
+    dailydiarybest: 3
+    dailydiarypeople: 3
+    dailydiaryoutside: 3
+    dailydiaryactive: 3
+    dailydiarycreative: 3
+    dailydiarylisten: 3
+    dailydiarygonebetter: 3
+    dailydiarylog: 0
     todolinesintodopage: 10
     notesindexpages: 3
     notesonpage: 35

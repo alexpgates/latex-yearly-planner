@@ -18,7 +18,14 @@
 \newcommand{\myNumDailyTopHour}{ {{- $numbers.DailyTopHour -}} }
 \newcommand{\myNumDailyDiaryGoals}{ {{- $numbers.DailyDiaryGoals -}} }
 \newcommand{\myNumDailyDiaryGrateful}{ {{- $numbers.DailyDiaryGrateful -}} }
+\newcommand{\myNumDailyDiaryDefault}{ {{- $numbers.DailyDiaryDefault -}} }
 \newcommand{\myNumDailyDiaryBest}{ {{- $numbers.DailyDiaryBest -}} }
+\newcommand{\myNumDailyDiaryGoneBetter}{ {{- $numbers.DailyDiaryGoneBetter -}} }
+\newcommand{\myNumDailyDiaryPeople}{ {{- $numbers.DailyDiaryPeople -}} }
+\newcommand{\myNumDailyDiaryOutside}{ {{- $numbers.DailyDiaryOutside -}} }
+\newcommand{\myNumDailyDiaryActive}{ {{- $numbers.DailyDiaryActive -}} }
+\newcommand{\myNumDailyDiaryCreative}{ {{- $numbers.DailyDiaryCreative -}} }
+\newcommand{\myNumDailyDiaryListen}{ {{- $numbers.DailyDiaryListen -}} }
 \newcommand{\myNumDailyDiaryLog}{ {{- $numbers.DailyDiaryLog -}} }
 \newcommand{\myNumDailyPersonal}{ {{- $numbers.DailyPersonal -}} }
 \newcommand{\myNumTodoLinesInTodoPage}{ {{- $numbers.TodoLinesInTodoPage -}} }
@@ -80,6 +87,14 @@
 
 \newcommand{\myMash}[3][]{
   {{- if $.Cfg.Dotted -}} \vskip\myLenLineHeightButLine#1\myDotGrid{#2}{#3} {{- else -}} \Repeat{#2}{\myLineGrayVskipTop} {{- end -}}
+}
+
+\newcommand{\conditionalMash}[3]{% #1 = number of lines, #2 = width, #3 = content
+  \ifnum#1>0
+    \myUnderline{#3}
+    \myMash{#1}{#2}
+    \medskip
+  \fi
 }
 
 \newcommand{\remainingHeight}{%

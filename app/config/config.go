@@ -80,7 +80,14 @@ type Numbers struct {
 	DailyTopHour        int
 	DailyDiaryGoals     int
 	DailyDiaryGrateful  int
+	DailyDiaryDefault   int
 	DailyDiaryBest      int
+	DailyDiaryPeople    int
+	DailyDiaryOutside   int
+	DailyDiaryActive    int
+	DailyDiaryCreative  int
+	DailyDiaryListen    int
+	DailyDiaryGoneBetter int
 	DailyDiaryLog       int
 	TodoLinesInTodoPage int
 	IndexMeetingNotes   int
