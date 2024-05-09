@@ -82,6 +82,14 @@
   {{- if $.Cfg.Dotted -}} \vskip\myLenLineHeightButLine#1\myDotGrid{#2}{#3} {{- else -}} \Repeat{#2}{\myLineGrayVskipTop} {{- end -}}
 }
 
+\newcommand{\conditionalMash}[3]{% #1 = number of lines, #2 = width, #3 = content
+  \ifnum#1>0
+    \myUnderline{#3}
+    \myMash{#1}{#2}
+    \medskip
+  \fi
+}
+
 \newcommand{\remainingHeight}{%
   \ifdim\pagegoal=\maxdimen
   \dimexpr\textheight-9.4pt\relax
