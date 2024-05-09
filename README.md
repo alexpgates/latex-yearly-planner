@@ -54,7 +54,7 @@ Instead of installing the dependencies manually, this repository is defined as a
 2. Install Go with Homebrew `brew install go`
 3. Install LaTeX with Homebrew `brew install --cask mactex` (This may take a while.)
 
-#### Building the PDF
+#### Building the PDF on MacOS
 
 For Remarkable 2:
 

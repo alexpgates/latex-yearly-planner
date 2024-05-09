@@ -18,14 +18,7 @@
 \newcommand{\myNumDailyTopHour}{ {{- $numbers.DailyTopHour -}} }
 \newcommand{\myNumDailyDiaryGoals}{ {{- $numbers.DailyDiaryGoals -}} }
 \newcommand{\myNumDailyDiaryGrateful}{ {{- $numbers.DailyDiaryGrateful -}} }
-\newcommand{\myNumDailyDiaryDefault}{ {{- $numbers.DailyDiaryDefault -}} }
 \newcommand{\myNumDailyDiaryBest}{ {{- $numbers.DailyDiaryBest -}} }
-\newcommand{\myNumDailyDiaryGoneBetter}{ {{- $numbers.DailyDiaryGoneBetter -}} }
-\newcommand{\myNumDailyDiaryPeople}{ {{- $numbers.DailyDiaryPeople -}} }
-\newcommand{\myNumDailyDiaryOutside}{ {{- $numbers.DailyDiaryOutside -}} }
-\newcommand{\myNumDailyDiaryActive}{ {{- $numbers.DailyDiaryActive -}} }
-\newcommand{\myNumDailyDiaryCreative}{ {{- $numbers.DailyDiaryCreative -}} }
-\newcommand{\myNumDailyDiaryListen}{ {{- $numbers.DailyDiaryListen -}} }
 \newcommand{\myNumDailyDiaryLog}{ {{- $numbers.DailyDiaryLog -}} }
 \newcommand{\myNumDailyPersonal}{ {{- $numbers.DailyPersonal -}} }
 \newcommand{\myNumTodoLinesInTodoPage}{ {{- $numbers.TodoLinesInTodoPage -}} }
