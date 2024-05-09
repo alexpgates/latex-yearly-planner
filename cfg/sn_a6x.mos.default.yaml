@@ -13,7 +13,6 @@ layout:
       left: 1cm
 
   numbers:
-    dailydiarydefault: 2
     dailydiarybest: 3
     dailydiarygrateful: 3
     dailydiarylog: 23
